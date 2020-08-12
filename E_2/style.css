@@ -1,0 +1,169 @@
+*{
+  box-sizing: border-box;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+  background:  url('img/A12.jpg');
+  background-size: 100% 100%;
+
+}
+/* ----- HEADER ----- */
+
+.nav{
+  background:linear-gradient(to left, #027074, #00fff0);
+  padding: 1px 20px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  height: 100px;
+  border-bottom: solid 5px #DDA63A;
+  box-shadow: 0 7px 4px rgb(255, 255, 255);
+  width: 100%;
+}
+
+.lg-nav{
+  width: 22%;
+  height: auto;
+}
+
+.lg-nav:hover{
+  width: 23%;
+
+}
+
+/* ------ MENU ------ */
+
+
+figure{
+  margin: 0;
+  height: 100vh;
+}
+
+figure .imagem_fundo {
+  background: url('img/pf02.jpg');
+  box-shadow: 0 7px 4px rgb(255, 255, 255);
+  background-size: 100% 100%;
+  height: 100vh;
+  border-radius: 0 0 5% 5%;
+}
+
+figure .titulo {
+  color: #FFF;
+}
+
+figure div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ODDS{
+  margin-top: 10vh;
+}
+.allmenu{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+figure a{
+  padding: 30px;
+  background: #412b01;
+  margin: 2vh;
+  text-decoration: none;
+  color: #DDA63A;
+  font-size: 20px;
+  box-shadow: 0 0 10px  black;
+  
+}
+
+.main a:hover{
+  padding: 30px;
+  background: #DDA63A;
+  color: #ffffff;
+  border: solid 3px #027074;
+  border-radius: 25px;
+}
+
+
+.ODDS a:hover{
+  padding: 30px;
+  background: #DDA63A;
+  color: #ffffff;
+  border: solid 3px #027074;
+  border-radius: 25px;
+}
+
+/* ------ Projeto ------ */
+
+.sec-L{
+  display: flex;
+  justify-content: start;
+  margin: 50px;
+  display: flex;
+  flex: 50%;
+  margin: 0 auto;
+}
+
+.sec-L img{
+  width: 30vw;
+  border-radius: 50%;
+}
+
+.sec-R{
+  display: flex;
+  justify-content: end;
+  margin: 50px;
+  display: flex;
+  flex: 50%;
+  flex-direction: row-reverse;
+
+}
+.sec-R img{
+  width: 30vw;
+  border-radius: 50%;
+}
+.txt{
+  background-color:  #DDA63A;
+  min-width: 50%;
+  border-radius: 85px;
+  border:solid 5px #ffffff;
+  margin-right: 20px;
+  text-align: center;
+  
+}
+
+.rot-videos{
+  min-width: 50%;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+  color: #ff0000;
+}
+
+/*------ FOOTER ------*/
+
+#footer{
+  text-align: center;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100px;
+  border-top:solid 5px #DDA63A;
+  background-image: linear-gradient( to right, #027074, #00fff0) ;
+}
+
